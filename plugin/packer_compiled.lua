@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/apranto/.cache/nvim/packer_hererocks/2.1.1692716794/share/lua/5.1/?.lua;/Users/apranto/.cache/nvim/packer_hererocks/2.1.1692716794/share/lua/5.1/?/init.lua;/Users/apranto/.cache/nvim/packer_hererocks/2.1.1692716794/lib/luarocks/rocks-5.1/?.lua;/Users/apranto/.cache/nvim/packer_hererocks/2.1.1692716794/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/apranto/.cache/nvim/packer_hererocks/2.1.1692716794/lib/lua/5.1/?.so"
+local package_path_str = "/Users/apranto/.cache/nvim/packer_hererocks/2.1.1741730670/share/lua/5.1/?.lua;/Users/apranto/.cache/nvim/packer_hererocks/2.1.1741730670/share/lua/5.1/?/init.lua;/Users/apranto/.cache/nvim/packer_hererocks/2.1.1741730670/lib/luarocks/rocks-5.1/?.lua;/Users/apranto/.cache/nvim/packer_hererocks/2.1.1741730670/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/apranto/.cache/nvim/packer_hererocks/2.1.1741730670/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -126,7 +126,7 @@ _G.packer_plugins = {
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-metals"] = {
-    config = { "\27LJ\2\nI\0\0\3\1\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0-\2\0\0B\0\2\1K\0\1\0\1À\25initialize_or_attach\vmetals\frequireÀ\1\1\2\b\0\r\0\0196\2\0\0009\2\1\0029\2\2\2'\4\3\0005\5\4\0B\2\3\0026\3\0\0009\3\1\0039\3\5\3'\5\6\0005\6\b\0009\a\a\0=\a\t\0063\a\n\0=\a\v\6=\2\f\6B\3\3\0012\0\0€K\0\1\0\ngroup\rcallback\0\fpattern\1\0\0\aft\rFileType\24nvim_create_autocmd\1\0\1\nclear\2\16nvim-metals\24nvim_create_augroup\bapi\bvim\0" },
+    config = { "\27LJ\2\nI\0\0\3\1\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0-\2\0\0B\0\2\1K\0\1\0\1À\25initialize_or_attach\vmetals\frequireÚ\1\1\2\b\0\r\0\0196\2\0\0009\2\1\0029\2\2\2'\4\3\0005\5\4\0B\2\3\0026\3\0\0009\3\1\0039\3\5\3'\5\6\0005\6\b\0009\a\a\0=\a\t\0063\a\n\0=\a\v\6=\2\f\6B\3\3\0012\0\0€K\0\1\0\ngroup\rcallback\0\fpattern\1\0\3\rcallback\0\ngroup\0\fpattern\0\aft\rFileType\24nvim_create_autocmd\1\0\1\nclear\2\16nvim-metals\24nvim_create_augroup\bapi\bvim\0" },
     loaded = false,
     needs_bufread = false,
     only_cond = false,
@@ -180,7 +180,7 @@ _G.packer_plugins = {
     url = "https://github.com/christoomey/vim-tmux-navigator"
   },
   ["yorumi.nvim"] = {
-    config = { "\27LJ\2\nÝ\2\0\0\b\0\18\0+6\0\0\0009\0\1\0'\2\2\0B\0\2\0016\0\0\0009\0\3\0'\1\5\0=\1\4\0006\0\0\0009\0\6\0009\0\a\0)\2\0\0005\3\b\0B\0\3\0026\1\0\0009\1\6\0019\1\t\1)\3\0\0'\4\n\0\18\5\0\0B\1\4\0016\1\0\0009\1\6\0019\1\a\1)\3\0\0005\4\v\0B\1\3\0026\2\0\0009\2\6\0029\2\t\2)\4\0\0'\5\f\0005\6\14\0009\a\r\1=\a\r\0069\a\15\1=\a\15\0069\a\16\1=\a\16\0069\a\17\1=\a\17\6B\2\4\1K\0\1\0\fctermbg\fctermfg\abg\1\0\1\tbold\2\afg LspSignatureActiveParameter\1\0\1\tname\nPMenu\fComment\16nvim_set_hl\1\0\1\tname\fBoolean\16nvim_get_hl\bapi\tdark\15background\6o\23colorscheme yorumi\bcmd\bvim\0" },
+    config = { "\27LJ\2\n÷\2\0\0\b\0\18\0+6\0\0\0009\0\1\0'\2\2\0B\0\2\0016\0\0\0009\0\3\0'\1\5\0=\1\4\0006\0\0\0009\0\6\0009\0\a\0)\2\0\0005\3\b\0B\0\3\0026\1\0\0009\1\6\0019\1\t\1)\3\0\0'\4\n\0\18\5\0\0B\1\4\0016\1\0\0009\1\6\0019\1\a\1)\3\0\0005\4\v\0B\1\3\0026\2\0\0009\2\6\0029\2\t\2)\4\0\0'\5\f\0005\6\14\0009\a\r\1=\a\r\0069\a\15\1=\a\15\0069\a\16\1=\a\16\0069\a\17\1=\a\17\6B\2\4\1K\0\1\0\fctermbg\fctermfg\abg\1\0\5\tbold\2\fctermbg\0\fctermfg\0\abg\0\afg\0\afg LspSignatureActiveParameter\1\0\1\tname\nPMenu\fComment\16nvim_set_hl\1\0\1\tname\fBoolean\16nvim_get_hl\bapi\tdark\15background\6o\23colorscheme yorumi\bcmd\bvim\0" },
     loaded = true,
     path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/yorumi.nvim",
     url = "https://github.com/yorumicolors/yorumi.nvim"
@@ -194,7 +194,7 @@ try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K
 time([[Config for Comment.nvim]], false)
 -- Config for: yorumi.nvim
 time([[Config for yorumi.nvim]], true)
-try_loadstring("\27LJ\2\nÝ\2\0\0\b\0\18\0+6\0\0\0009\0\1\0'\2\2\0B\0\2\0016\0\0\0009\0\3\0'\1\5\0=\1\4\0006\0\0\0009\0\6\0009\0\a\0)\2\0\0005\3\b\0B\0\3\0026\1\0\0009\1\6\0019\1\t\1)\3\0\0'\4\n\0\18\5\0\0B\1\4\0016\1\0\0009\1\6\0019\1\a\1)\3\0\0005\4\v\0B\1\3\0026\2\0\0009\2\6\0029\2\t\2)\4\0\0'\5\f\0005\6\14\0009\a\r\1=\a\r\0069\a\15\1=\a\15\0069\a\16\1=\a\16\0069\a\17\1=\a\17\6B\2\4\1K\0\1\0\fctermbg\fctermfg\abg\1\0\1\tbold\2\afg LspSignatureActiveParameter\1\0\1\tname\nPMenu\fComment\16nvim_set_hl\1\0\1\tname\fBoolean\16nvim_get_hl\bapi\tdark\15background\6o\23colorscheme yorumi\bcmd\bvim\0", "config", "yorumi.nvim")
+try_loadstring("\27LJ\2\n÷\2\0\0\b\0\18\0+6\0\0\0009\0\1\0'\2\2\0B\0\2\0016\0\0\0009\0\3\0'\1\5\0=\1\4\0006\0\0\0009\0\6\0009\0\a\0)\2\0\0005\3\b\0B\0\3\0026\1\0\0009\1\6\0019\1\t\1)\3\0\0'\4\n\0\18\5\0\0B\1\4\0016\1\0\0009\1\6\0019\1\a\1)\3\0\0005\4\v\0B\1\3\0026\2\0\0009\2\6\0029\2\t\2)\4\0\0'\5\f\0005\6\14\0009\a\r\1=\a\r\0069\a\15\1=\a\15\0069\a\16\1=\a\16\0069\a\17\1=\a\17\6B\2\4\1K\0\1\0\fctermbg\fctermfg\abg\1\0\5\tbold\2\fctermbg\0\fctermfg\0\abg\0\afg\0\afg LspSignatureActiveParameter\1\0\1\tname\nPMenu\fComment\16nvim_set_hl\1\0\1\tname\fBoolean\16nvim_get_hl\bapi\tdark\15background\6o\23colorscheme yorumi\bcmd\bvim\0", "config", "yorumi.nvim")
 time([[Config for yorumi.nvim]], false)
 vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]
