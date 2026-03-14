@@ -82,26 +82,20 @@ return require('packer').startup(function(use)
     use('nvim-treesitter/nvim-treesitter', {opt=':TSUpdate'})
     use('theprimeagen/harpoon')
     use('mbbill/undotree')
+    -- LSP Support
+    use { 'neovim/nvim-lspconfig' }
     use {
-        'VonHeikemen/lsp-zero.nvim',
-        branch = 'v2.x',
-        requires = {
-            -- LSP Support
-            { 'neovim/nvim-lspconfig' }, -- Required
-            {                        -- Optional
-                'williamboman/mason.nvim',
-                run = function()
-                    pcall(vim.cmd, 'MasonUpdate')
-                end,
-            },
-            { 'williamboman/mason-lspconfig.nvim' }, -- Optional
-
-            -- Autocompletion
-            { 'hrsh7th/nvim-cmp' }, -- Required
-            { 'hrsh7th/cmp-nvim-lsp' }, -- Required
-            { 'L3MON4D3/LuaSnip' }, -- Required
-        }
+        'williamboman/mason.nvim',
+        run = function()
+            pcall(vim.cmd, 'MasonUpdate')
+        end,
     }
+    use { 'williamboman/mason-lspconfig.nvim' }
+
+    -- Autocompletion
+    use { 'hrsh7th/nvim-cmp' }
+    use { 'hrsh7th/cmp-nvim-lsp' }
+    use { 'L3MON4D3/LuaSnip' }
     use {
         'nvim-lualine/lualine.nvim',
         requires = { 'nvim-tree/nvim-web-devicons', opt = true }
