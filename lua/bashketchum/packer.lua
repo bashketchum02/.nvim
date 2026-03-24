@@ -79,7 +79,7 @@ return require('packer').startup(function(use)
         end
     })
     use('tpope/vim-fugitive')
-    use('nvim-treesitter/nvim-treesitter', {opt=':TSUpdate'})
+    use('nvim-treesitter/nvim-treesitter')
     use('theprimeagen/harpoon')
     use('mbbill/undotree')
     -- LSP Support
@@ -90,7 +90,23 @@ return require('packer').startup(function(use)
             pcall(vim.cmd, 'MasonUpdate')
         end,
     }
-    use { 'williamboman/mason-lspconfig.nvim' }
+    use { 
+        'williamboman/mason-lspconfig.nvim',
+        config = function()
+            require('mason-lspconfig').setup({
+                ensure_installed = {
+                    'basedpyright',
+                    'golangci-lint',
+                    'gopls',
+                    'helm-ls',
+                    'lua_ls',
+                    'shfmt',
+                    'stylua',
+                    'yaml-language-server',
+                },
+            })
+        end,
+    }
 
     -- Autocompletion
     use { 'hrsh7th/nvim-cmp' }

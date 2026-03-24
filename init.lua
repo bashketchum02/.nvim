@@ -1,5 +1,6 @@
 require("bashketchum.remap")
 require("bashketchum.packer")
+require("bashketchum.lsp")
 
 vim.opt.guicursor = ""
 

@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/apranto/.cache/nvim/packer_hererocks/2.1.1741730670/share/lua/5.1/?.lua;/Users/apranto/.cache/nvim/packer_hererocks/2.1.1741730670/share/lua/5.1/?/init.lua;/Users/apranto/.cache/nvim/packer_hererocks/2.1.1741730670/lib/luarocks/rocks-5.1/?.lua;/Users/apranto/.cache/nvim/packer_hererocks/2.1.1741730670/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/apranto/.cache/nvim/packer_hererocks/2.1.1741730670/lib/lua/5.1/?.so"
+local package_path_str = "/home/bashketchum02/.cache/nvim/packer_hererocks/2.1.1764270282/share/lua/5.1/?.lua;/home/bashketchum02/.cache/nvim/packer_hererocks/2.1.1764270282/share/lua/5.1/?/init.lua;/home/bashketchum02/.cache/nvim/packer_hererocks/2.1.1764270282/lib/luarocks/rocks-5.1/?.lua;/home/bashketchum02/.cache/nvim/packer_hererocks/2.1.1764270282/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/bashketchum02/.cache/nvim/packer_hererocks/2.1.1764270282/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -77,87 +77,87 @@ _G.packer_plugins = {
   ["Comment.nvim"] = {
     config = { "\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0" },
     loaded = true,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
   LuaSnip = {
     loaded = true,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   harpoon = {
     loaded = true,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/harpoon",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
   ["lualine.nvim"] = {
     loaded = true,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
     url = "https://github.com/williamboman/mason-lspconfig.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["mini.nvim"] = {
     loaded = false,
     needs_bufread = false,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/opt/mini.nvim",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/opt/mini.nvim",
     url = "https://github.com/nvim-mini/mini.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-metals"] = {
-    config = { "\27LJ\2\nI\0\0\3\1\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0-\2\0\0B\0\2\1K\0\1\0\1À\25initialize_or_attach\vmetals\frequireÚ\1\1\2\b\0\r\0\0196\2\0\0009\2\1\0029\2\2\2'\4\3\0005\5\4\0B\2\3\0026\3\0\0009\3\1\0039\3\5\3'\5\6\0005\6\b\0009\a\a\0=\a\t\0063\a\n\0=\a\v\6=\2\f\6B\3\3\0012\0\0€K\0\1\0\ngroup\rcallback\0\fpattern\1\0\3\fpattern\0\ngroup\0\rcallback\0\aft\rFileType\24nvim_create_autocmd\1\0\1\nclear\2\16nvim-metals\24nvim_create_augroup\bapi\bvim\0" },
+    config = { "\27LJ\2\nI\0\0\3\1\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0-\2\0\0B\0\2\1K\0\1\0\1À\25initialize_or_attach\vmetals\frequireÚ\1\1\2\b\0\r\0\0196\2\0\0009\2\1\0029\2\2\2'\4\3\0005\5\4\0B\2\3\0026\3\0\0009\3\1\0039\3\5\3'\5\6\0005\6\b\0009\a\a\0=\a\t\0063\a\n\0=\a\v\6=\2\f\6B\3\3\0012\0\0€K\0\1\0\ngroup\rcallback\0\fpattern\1\0\3\ngroup\0\rcallback\0\fpattern\0\aft\rFileType\24nvim_create_autocmd\1\0\1\nclear\2\16nvim-metals\24nvim_create_augroup\bapi\bvim\0" },
     loaded = false,
     needs_bufread = false,
     only_cond = false,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/opt/nvim-metals",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/opt/nvim-metals",
     url = "https://github.com/scalameta/nvim-metals"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = false,
     needs_bufread = false,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["presence.nvim"] = {
     loaded = true,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/presence.nvim",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/start/presence.nvim",
     url = "https://github.com/andweeb/presence.nvim"
   },
   ["render-markdown.nvim"] = {
@@ -165,33 +165,33 @@ _G.packer_plugins = {
     load_after = {},
     loaded = true,
     needs_bufread = false,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/opt/render-markdown.nvim",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/opt/render-markdown.nvim",
     url = "https://github.com/MeanderingProgrammer/render-markdown.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   undotree = {
     loaded = true,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/undotree",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
   ["vim-fugitive"] = {
     loaded = true,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
   ["vim-tmux-navigator"] = {
     loaded = true,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
   },
   ["yorumi.nvim"] = {
-    config = { "\27LJ\2\n÷\2\0\0\b\0\18\0+6\0\0\0009\0\1\0'\2\2\0B\0\2\0016\0\0\0009\0\3\0'\1\5\0=\1\4\0006\0\0\0009\0\6\0009\0\a\0)\2\0\0005\3\b\0B\0\3\0026\1\0\0009\1\6\0019\1\t\1)\3\0\0'\4\n\0\18\5\0\0B\1\4\0016\1\0\0009\1\6\0019\1\a\1)\3\0\0005\4\v\0B\1\3\0026\2\0\0009\2\6\0029\2\t\2)\4\0\0'\5\f\0005\6\14\0009\a\r\1=\a\r\0069\a\15\1=\a\15\0069\a\16\1=\a\16\0069\a\17\1=\a\17\6B\2\4\1K\0\1\0\fctermbg\fctermfg\abg\1\0\5\fctermfg\0\abg\0\afg\0\tbold\2\fctermbg\0\afg LspSignatureActiveParameter\1\0\1\tname\nPMenu\fComment\16nvim_set_hl\1\0\1\tname\fBoolean\16nvim_get_hl\bapi\tdark\15background\6o\23colorscheme yorumi\bcmd\bvim\0" },
+    config = { "\27LJ\2\n÷\2\0\0\b\0\18\0+6\0\0\0009\0\1\0'\2\2\0B\0\2\0016\0\0\0009\0\3\0'\1\5\0=\1\4\0006\0\0\0009\0\6\0009\0\a\0)\2\0\0005\3\b\0B\0\3\0026\1\0\0009\1\6\0019\1\t\1)\3\0\0'\4\n\0\18\5\0\0B\1\4\0016\1\0\0009\1\6\0019\1\a\1)\3\0\0005\4\v\0B\1\3\0026\2\0\0009\2\6\0029\2\t\2)\4\0\0'\5\f\0005\6\14\0009\a\r\1=\a\r\0069\a\15\1=\a\15\0069\a\16\1=\a\16\0069\a\17\1=\a\17\6B\2\4\1K\0\1\0\fctermbg\fctermfg\abg\1\0\5\abg\0\afg\0\tbold\2\fctermbg\0\fctermfg\0\afg LspSignatureActiveParameter\1\0\1\tname\nPMenu\fComment\16nvim_set_hl\1\0\1\tname\fBoolean\16nvim_get_hl\bapi\tdark\15background\6o\23colorscheme yorumi\bcmd\bvim\0" },
     loaded = true,
-    path = "/Users/apranto/.local/share/nvim/site/pack/packer/start/yorumi.nvim",
+    path = "/home/bashketchum02/.local/share/nvim/site/pack/packer/start/yorumi.nvim",
     url = "https://github.com/yorumicolors/yorumi.nvim"
   }
 }
@@ -199,7 +199,7 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Config for: yorumi.nvim
 time([[Config for yorumi.nvim]], true)
-try_loadstring("\27LJ\2\n÷\2\0\0\b\0\18\0+6\0\0\0009\0\1\0'\2\2\0B\0\2\0016\0\0\0009\0\3\0'\1\5\0=\1\4\0006\0\0\0009\0\6\0009\0\a\0)\2\0\0005\3\b\0B\0\3\0026\1\0\0009\1\6\0019\1\t\1)\3\0\0'\4\n\0\18\5\0\0B\1\4\0016\1\0\0009\1\6\0019\1\a\1)\3\0\0005\4\v\0B\1\3\0026\2\0\0009\2\6\0029\2\t\2)\4\0\0'\5\f\0005\6\14\0009\a\r\1=\a\r\0069\a\15\1=\a\15\0069\a\16\1=\a\16\0069\a\17\1=\a\17\6B\2\4\1K\0\1\0\fctermbg\fctermfg\abg\1\0\5\fctermfg\0\abg\0\afg\0\tbold\2\fctermbg\0\afg LspSignatureActiveParameter\1\0\1\tname\nPMenu\fComment\16nvim_set_hl\1\0\1\tname\fBoolean\16nvim_get_hl\bapi\tdark\15background\6o\23colorscheme yorumi\bcmd\bvim\0", "config", "yorumi.nvim")
+try_loadstring("\27LJ\2\n÷\2\0\0\b\0\18\0+6\0\0\0009\0\1\0'\2\2\0B\0\2\0016\0\0\0009\0\3\0'\1\5\0=\1\4\0006\0\0\0009\0\6\0009\0\a\0)\2\0\0005\3\b\0B\0\3\0026\1\0\0009\1\6\0019\1\t\1)\3\0\0'\4\n\0\18\5\0\0B\1\4\0016\1\0\0009\1\6\0019\1\a\1)\3\0\0005\4\v\0B\1\3\0026\2\0\0009\2\6\0029\2\t\2)\4\0\0'\5\f\0005\6\14\0009\a\r\1=\a\r\0069\a\15\1=\a\15\0069\a\16\1=\a\16\0069\a\17\1=\a\17\6B\2\4\1K\0\1\0\fctermbg\fctermfg\abg\1\0\5\abg\0\afg\0\tbold\2\fctermbg\0\fctermfg\0\afg LspSignatureActiveParameter\1\0\1\tname\nPMenu\fComment\16nvim_set_hl\1\0\1\tname\fBoolean\16nvim_get_hl\bapi\tdark\15background\6o\23colorscheme yorumi\bcmd\bvim\0", "config", "yorumi.nvim")
 time([[Config for yorumi.nvim]], false)
 -- Config for: Comment.nvim
 time([[Config for Comment.nvim]], true)
@@ -218,9 +218,9 @@ vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]
   -- Filetype lazy-loads
 time([[Defining lazy-load filetype autocommands]], true)
+vim.cmd [[au FileType java ++once lua require("packer.load")({'nvim-metals'}, { ft = "java" }, _G.packer_plugins)]]
 vim.cmd [[au FileType scala ++once lua require("packer.load")({'nvim-metals'}, { ft = "scala" }, _G.packer_plugins)]]
 vim.cmd [[au FileType sbt ++once lua require("packer.load")({'nvim-metals'}, { ft = "sbt" }, _G.packer_plugins)]]
-vim.cmd [[au FileType java ++once lua require("packer.load")({'nvim-metals'}, { ft = "java" }, _G.packer_plugins)]]
 time([[Defining lazy-load filetype autocommands]], false)
 vim.cmd("augroup END")
 
